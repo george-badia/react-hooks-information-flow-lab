@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+// Function component for the Header
 const Header = ({ onDarkModeClick, isDarkMode }) => {
   return (
     <header>

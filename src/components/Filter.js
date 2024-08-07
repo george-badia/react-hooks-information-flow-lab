@@ -5,6 +5,7 @@ import React from 'react';
 const Filter = ({ onCategoryChange }) => {
   return (
     <div className="Filter">
+        {/* Dropdown to filter items by category */}
       <select name="filter" onChange={onCategoryChange}>
         <option value="All">Filter by category</option>
         <option value="Produce">Produce</option>
